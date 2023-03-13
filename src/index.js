@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import NewClock from './components/clock'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <NewClock clockImg="https://i.pinimg.com/736x/d8/50/44/d85044d952ad76e5563552a035b1d5fd--rolex-watches.jpg" clockImgName = "rolex" > </NewClock>
+      {/*<App />*/}
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
